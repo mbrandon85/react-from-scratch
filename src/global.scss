@@ -1,0 +1,10 @@
+$default-background-color: lightgrey;
+
+body {
+    padding: 20px;
+    background-color: $default-background-color;
+}
+
+.greeting {
+    font-weight: bold;
+}

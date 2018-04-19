@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import './global.css';
+import './global.scss';
 
 const style = {
     color: '#00f'
