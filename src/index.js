@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import './global.scss';
-
-const style = {
-    color: '#00f'
-};
+import Greeting from './Greeting';
 
 const Index = () => {
-    return <div style={style} className="greeting">Hello React!</div>;
+    return (
+        <div>
+            <Greeting />
+        </div>
+    );
 };
 
 ReactDOM.render(<Index />, document.getElementById("index"));
