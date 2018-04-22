@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import './global.scss';
-import Greeting from './Greeting';
+import Greeting from './components/greeting/Greeting';
 
 const Index = () => {
     return (
         <div>
-            <Greeting />
+            <Greeting name={'Adam'} />
         </div>
     );
 };
