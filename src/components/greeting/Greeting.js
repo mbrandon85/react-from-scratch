@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class Greeting extends React.Component {
   style = {
-    color: "#00f"
+    color: '#00f'
   };
 
   render() {
