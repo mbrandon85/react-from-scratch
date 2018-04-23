@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/horkman/react-from-scratch.git"
+    "url": "git+https://github.com/mbrandon85/react-from-scratch.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/horkman/react-from-scratch/issues"
+    "url": "https://github.com/mbrandon85/react-from-scratch/issues"
   },
-  "homepage": "https://github.com/horkman/react-from-scratch#readme",
+  "homepage": "https://github.com/mbrandon85/react-from-scratch#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",

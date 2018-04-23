@@ -7,7 +7,7 @@ import Greeting from './components/greeting/Greeting';
 const Index = () => {
   return (
     <div>
-      <Greeting name={'Adam'} />
+      <Greeting name={'Matt'} />
     </div>
   );
 };

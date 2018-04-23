@@ -4,7 +4,7 @@ import { shallow, mount, render } from 'enzyme';
 import Greeting from './Greeting';
 
 describe('<Greeting />', () => {
-  const name = 'Adam';
+  const name = 'Matt';
 
   it('should be selectable by class', () => {
     const isCorrectCssClass = shallow(<Greeting name={name} />).is('.greeting');
@@ -22,6 +22,6 @@ describe('<Greeting />', () => {
   it('should render a greeting to static HTML', () => {
     const renderedText = render(<Greeting name={name} />).text();
 
-    expect(renderedText).toBe('Hello Adam!');
+    expect(renderedText).toBe('Hello Matt!');
   });
 });
