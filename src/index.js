@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import reducer from './reducers';
+import AddTodo from './containers/AddTodo';
 
 import './global.scss';
-import Greeting from './components/greeting/Greeting';
 
+const store = createStore(reducer);
 const Index = () => {
   return (
-    <div>
-      <Greeting name={'Matt'} />
-    </div>
+    <Provider store={store}>
+      <div>
+        <AddTodo />
+      </div>
+    </Provider>
   );
 };
 

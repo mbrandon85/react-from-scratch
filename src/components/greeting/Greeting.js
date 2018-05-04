@@ -5,6 +5,9 @@ class Greeting extends React.Component {
   style = {
     color: '#00f'
   };
+  static propTypes = {
+    name: PropTypes.string
+  };
 
   render() {
     return (
@@ -14,9 +17,5 @@ class Greeting extends React.Component {
     );
   }
 }
-
-Greeting.propTypes = {
-  name: PropTypes.string
-};
 
 export default Greeting;
